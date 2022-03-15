@@ -1,0 +1,67 @@
+.formContainer {
+  padding-top: 300px;
+  padding-bottom: 200px;
+  margin: auto;
+  width: 90%;
+  max-width: 550px;
+}
+
+.contactForm {
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  height: 40vh;
+  min-height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 23.9px rgba(0, 0, 0, 0.053), 0px 0px 68.9px rgba(0, 0, 0, 0.077), 0px 0px 190px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.contactHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formButton {
+  cursor: pointer;
+  padding: 10px 0px 10px 0px;
+  border: none;
+  font-size: 1.3rem;
+  background-color: #0f1538;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.formButton:hover {
+  background-color: #223081;
+}
+
+.contactForm svg {
+  position: absolute;
+  top: -200px;
+  left: 60px;
+  z-index: -1;
+}
+
+@media (max-width: 650px) {
+  .contactForm svg {
+    top: -200px;
+    left: -239px;
+  }
+}
+
+.line {
+  border: 1px solid rgb(170, 170, 170);
+}
+.contactHeader i {
+  padding-left: 15px;
+  font-size: 1.8rem;
+}
+
+.FormControl {
+  padding-top: 20px;
+  border: 1px solid red;
+}

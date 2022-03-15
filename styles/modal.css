@@ -1,0 +1,49 @@
+.modal {
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+  max-width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.modal h3 {
+  margin-top: 20px;
+}
+
+.modalBtn {
+  margin: 40px 0px 20px 30px;
+  min-width: 137px;
+  height: 45px;
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  background-color: #1e275c;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.modalBtn:hover {
+  background-color: #33439c;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 500px) {
+  .modal {
+    left: 20px;
+  }
+}
